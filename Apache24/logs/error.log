@@ -1,0 +1,49 @@
+[Fri Jul 14 15:40:13.702049 2017] [php7:warn] [pid 4280:tid 764] [client 172.31.99.236:47605] PHP Warning:  error_log() expects parameter 1 to be string, array given in C:\\Apache24\\htdocs\\getjson.php on line 3
+[Fri Jul 14 15:40:13.702049 2017] [php7:warn] [pid 4280:tid 764] [client 172.31.99.236:47605] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in C:\\Apache24\\htdocs\\getjson.php on line 4
+[Fri Jul 14 15:40:13.702049 2017] [php7:notice] [pid 4280:tid 764] [client 172.31.99.236:47605] PHP Notice:  Undefined index: gyrox in C:\\Apache24\\htdocs\\getjson.php on line 13
+[Fri Jul 14 15:40:13.702049 2017] [php7:notice] [pid 4280:tid 764] [client 172.31.99.236:47605] PHP Notice:  Undefined index: gyroy in C:\\Apache24\\htdocs\\getjson.php on line 14
+[Fri Jul 14 15:40:13.702049 2017] [php7:notice] [pid 4280:tid 764] [client 172.31.99.236:47605] PHP Notice:  Undefined index: gyroz in C:\\Apache24\\htdocs\\getjson.php on line 15
+[Fri Jul 14 15:40:13.702049 2017] [php7:notice] [pid 4280:tid 764] [client 172.31.99.236:47605] PHP Notice:  Undefined index: hrm in C:\\Apache24\\htdocs\\getjson.php on line 16
+[Fri Jul 14 15:57:19.308393 2017] [php7:warn] [pid 4280:tid 764] [client 172.31.99.236:47607] PHP Warning:  error_log() expects parameter 1 to be string, array given in C:\\Apache24\\htdocs\\getjson.php on line 3
+[Fri Jul 14 15:57:19.308393 2017] [php7:warn] [pid 4280:tid 764] [client 172.31.99.236:47607] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in C:\\Apache24\\htdocs\\getjson.php on line 4
+[Fri Jul 14 15:57:19.308393 2017] [php7:notice] [pid 4280:tid 764] [client 172.31.99.236:47607] PHP Notice:  Undefined index: gyrox in C:\\Apache24\\htdocs\\getjson.php on line 13
+[Fri Jul 14 15:57:19.308393 2017] [php7:notice] [pid 4280:tid 764] [client 172.31.99.236:47607] PHP Notice:  Undefined index: gyroy in C:\\Apache24\\htdocs\\getjson.php on line 14
+[Fri Jul 14 15:57:19.308393 2017] [php7:notice] [pid 4280:tid 764] [client 172.31.99.236:47607] PHP Notice:  Undefined index: gyroz in C:\\Apache24\\htdocs\\getjson.php on line 15
+[Fri Jul 14 15:57:19.308393 2017] [php7:notice] [pid 4280:tid 764] [client 172.31.99.236:47607] PHP Notice:  Undefined index: hrm in C:\\Apache24\\htdocs\\getjson.php on line 16
+[Fri Jul 14 16:05:43.892180 2017] [php7:error] [pid 4280:tid 764] [client 172.31.99.102:56375] PHP Fatal error:  Uncaught Error: Call to a member function format() on string in C:\\Apache24\\htdocs\\test.php:8\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\test.php on line 8
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 988:tid 340] AH00424: Parent: Received restart signal -- Restarting the server.
+[Fri Jul 14 16:18:24.391464 2017] [mpm_winnt:notice] [pid 988:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.7 configured -- resuming normal operations
+[Fri Jul 14 16:18:24.391464 2017] [mpm_winnt:notice] [pid 988:tid 340] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 13:44:15
+[Fri Jul 14 16:18:24.391464 2017] [core:notice] [pid 988:tid 340] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Jul 14 16:18:24.391464 2017] [mpm_winnt:notice] [pid 988:tid 340] AH00418: Parent: Created child process 1716
+[Fri Jul 14 16:18:25.360670 2017] [mpm_winnt:notice] [pid 1716:tid 232] AH00354: Child: Starting 64 worker threads.
+[Fri Jul 14 16:18:26.360728 2017] [mpm_winnt:notice] [pid 4280:tid 232] AH00364: Child: All worker threads have exited.
+[Fri Jul 14 18:01:07.058643 2017] [mpm_winnt:notice] [pid 988:tid 340] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jul 14 18:01:09.086646 2017] [mpm_winnt:notice] [pid 1716:tid 232] AH00364: Child: All worker threads have exited.
+[Fri Jul 14 18:01:09.102246 2017] [mpm_winnt:notice] [pid 988:tid 340] AH00430: Parent: Child process 1716 exited successfully.
+[Mon Jul 17 08:52:39.819609 2017] [mpm_winnt:notice] [pid 1804:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.7 configured -- resuming normal operations
+[Mon Jul 17 08:52:39.819609 2017] [mpm_winnt:notice] [pid 1804:tid 340] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 13:44:15
+[Mon Jul 17 08:52:39.819609 2017] [core:notice] [pid 1804:tid 340] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Jul 17 08:52:39.819609 2017] [mpm_winnt:notice] [pid 1804:tid 340] AH00418: Parent: Created child process 2276
+[Mon Jul 17 08:52:40.273610 2017] [mpm_winnt:notice] [pid 2276:tid 232] AH00354: Child: Starting 64 worker threads.
+[Mon Jul 17 09:10:30.965335 2017] [mpm_winnt:notice] [pid 1804:tid 340] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jul 17 09:10:32.965449 2017] [mpm_winnt:notice] [pid 2276:tid 232] AH00364: Child: All worker threads have exited.
+[Mon Jul 17 09:10:32.984450 2017] [mpm_winnt:notice] [pid 1804:tid 340] AH00430: Parent: Child process 2276 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 6092:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.7 configured -- resuming normal operations
+[Mon Jul 17 09:10:36.060626 2017] [mpm_winnt:notice] [pid 6092:tid 340] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 13:44:15
+[Mon Jul 17 09:10:36.060626 2017] [core:notice] [pid 6092:tid 340] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Jul 17 09:10:36.061626 2017] [mpm_winnt:notice] [pid 6092:tid 340] AH00418: Parent: Created child process 864
+[Mon Jul 17 09:10:36.307640 2017] [mpm_winnt:notice] [pid 864:tid 232] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 6092:tid 340] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Jul 17 10:46:28.295545 2017] [mpm_winnt:notice] [pid 6092:tid 340] AH00455: Apache/2.4.27 (Win64) PHP/7.1.7 configured -- resuming normal operations
+[Mon Jul 17 10:46:28.295545 2017] [mpm_winnt:notice] [pid 6092:tid 340] AH00456: Apache Lounge VC14 Server built: Jul  9 2017 13:44:15
+[Mon Jul 17 10:46:28.295545 2017] [core:notice] [pid 6092:tid 340] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Jul 17 10:46:28.295545 2017] [mpm_winnt:notice] [pid 6092:tid 340] AH00418: Parent: Created child process 2980
+[Mon Jul 17 10:46:29.293947 2017] [mpm_winnt:notice] [pid 2980:tid 232] AH00354: Child: Starting 64 worker threads.
+[Mon Jul 17 10:46:30.307949 2017] [mpm_winnt:notice] [pid 864:tid 232] AH00364: Child: All worker threads have exited.

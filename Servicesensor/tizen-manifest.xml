@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="org.example.servicesensor" version="1.0.0">
+    <profile name="wearable"/>
+    <service-application appid="org.example.servicesensor" exec="servicesensor" multiple="false" nodisplay="true" taskmanage="false" type="capp">
+        <label>servicesensor</label>
+        <icon>servicesensor.png</icon>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/healthinfo</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+    </privileges>
+    <feature name="http://tizen.org/feature/network.internet">true</feature>
+    <feature name="http://tizen.org/feature/sensor.accelerometer">true</feature>
+    <feature name="http://tizen.org/feature/sensor.heart_rate_monitor">true</feature>
+</manifest>
